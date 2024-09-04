@@ -1,0 +1,44 @@
+.container {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+}
+.azul{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(59, 59, 150);
+}
+.verde{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.roxo{
+    width: 100px;
+    height: 100px;
+    px;
+    background-color: rgb(70, 41, 99);
+}
+.verde{
+    /* margin: 20px 40px 60px 80px; */
+    /* margin representar o espaço fora */
+    /* cima direita baixo esquerda */
+    margin: 0;
+    border: 0px groove black ;
+    /* Para o border funcionar precisa de 3 coisas: Largura da borda, tipo da borda e cor da borda */
+    /* solid, dashed (pontilhada), double (borda dupla), dotted (borda de bolinha), groove (efeito 3D), ridge (meio 3D) */
+   padding: 0px; 
+   /* cima, direita, baixo, esquerda = PADDING = espaço dentro da figura */
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    /* row, row-reverse, column, column-reverse */
+    justify-content: center;
+    /* left, right, center, space-btween, space-aroud, space-evenly */
+    align-items: center;
+    /* flex-start, flex-end, center, baseline  */
+    flex-wrap: wrap;
+    /* flex-wrap = pula uma linha para dar espaço entre os elementos */
+}
